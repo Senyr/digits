@@ -1,10 +1,5 @@
 ## Digits
 
-Digits is an application that allows users to:
-- Login to an account
-- Create and manage a set of contacts
-- Add a set of timestamped notes
-
 ## Installation
 
 First, [install Meteor](https://www.meteor.com/install).
