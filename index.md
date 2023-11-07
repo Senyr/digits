@@ -1,26 +1,4 @@
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-page.png)
-
-meteor-application-template-react is a sample Meteor 2.9 application that illustrates: 
-
-  * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
-  * [Bootstrap 5 React](https://react-bootstrap.github.io/) for user interface.
-  * [Uniforms](https://uniforms.tools/) for form development.
-  * [alanning:roles](https://github.com/alanning/meteor-roles) to implement a special "Admin" user.
-  * Authorization, authentication, and registration using built-in Meteor packages.
-  * Initialization of users and data from a settings file.
-  * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
-  * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
-
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
-
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
-
-  * Unit Testing.
-  * Security (meteor-application-template-react enables the insecure packages)
-  * Deployment
-
-Examples of the these capabilities will be provided elsewhere.
-
+<img src="doc/![LandingPage.png](doc%2FLandingPage.png)>
 ## Installation
 
 First, [install Meteor](https://www.meteor.com/install).
@@ -148,44 +126,32 @@ By default, each user only sees the Stuff that they have created.  However, the 
 #### Landing page
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-page.png)
-
+<img src="doc/![LandingPage.png](doc%2FLandingPage.png)>
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
 #### Login page
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/signin-page.png)
-
+<img src="doc/![LoginLandingPage.png](doc%2FLoginLandingPage.png)>
 #### Register page
 
 Alternatively, clicking on the Login link, then on the Sign Up menu item displays this page:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/register-page.png)
-
+<img src="doc/![RegisterPage.png](doc%2FRegisterPage.png)>
 
 #### Landing (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-after-login-page.png)
-
+<img src="doc/![LoginLandingPage.png](doc%2FLoginLandingPage.png)">
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
-#### Add Stuff page
+#### Add Contacts page
 
 After logging in, here is the page that allows you to add new Stuff:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/add-stuff-page.png)
-
-#### List Stuff page
+<img src="doc/![AddContatcs.png](doc%2FAddContatcs.png)>
+#### List Contacts page
 
 After logging in, here is the page that allows you to list all the Stuff you have created:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/list-stuff-page.png)
-
+<img src="doc/![ListContacts.png](doc%2FListContacts.png)">
 You click the "Edit" link to go to the Edit Stuff page, shown next.
 
 #### Edit Stuff page
@@ -204,8 +170,7 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
 
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/admin-list-stuff-page.png)
-
+<img src="doc/![AdminPage.png](doc%2FAdminPage.png)>
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
 
 ### Collections
