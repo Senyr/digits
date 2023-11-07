@@ -1,25 +1,4 @@
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-page.png)
-
-meteor-application-template-react is a sample Meteor 2.9 application that illustrates: 
-
-  * A standard directory layout using 'imports/' as recommended in the [Meteor Guide](https://guide.meteor.com/structure.html)
-  * [Bootstrap 5 React](https://react-bootstrap.github.io/) for user interface.
-  * [Uniforms](https://uniforms.tools/) for form development.
-  * [alanning:roles](https://github.com/alanning/meteor-roles) to implement a special "Admin" user.
-  * Authorization, authentication, and registration using built-in Meteor packages.
-  * Initialization of users and data from a settings file.
-  * Alerts regarding success or failure of DB updates using [Sweet Alert](https://sweetalert.js.org/).
-  * Quality assurance using [ESLint](http://eslint.org) with packages to partially enforce the [Meteor Coding Standards](https://guide.meteor.com/code-style.html) and the [AirBnB Javascript Style Guide](https://github.com/airbnb/javascript).
-
-The goal of this template is to help you get quickly started doing Meteor development by providing a reasonable directory structure for development and deployment, a set of common extensions to the core framework, and boilerplate code to implement basic page display, navigation, forms, roles, and collection manipulation.
-
-To keep this codebase simple and small, some important capabilities are intentionally excluded from this template:
-
-  * Unit Testing.
-  * Security (meteor-application-template-react enables the insecure packages)
-  * Deployment
-
-Examples of the these capabilities will be provided elsewhere.
+<img src= "doc/landing-page.png>
 
 ## Installation
 
@@ -146,18 +125,17 @@ The application implements a simple CRUD application for managing "Stuff", which
 By default, each user only sees the Stuff that they have created.  However, the settings file enables you to define default accounts.  If you define a user with the role "admin", then that user gets access to a special page which lists all the Stuff defined by all users.
 
 #### Landing page
+<img src= "doc/landing-page.png>
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/landing-page.png)
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
 #### Login page
+<img src= "doc/landing-after-login-page.png>
+
 
 Clicking on the Login link, then on the Sign In menu item displays this page:
-
-![](https://github.com/ics-software-engineering/meteor-application-template-react/raw/main/doc/signin-page.png)
 
 #### Register page
 
@@ -174,7 +152,7 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
-#### Add Stuff page
+#### Add Contacts page
 
 After logging in, here is the page that allows you to add new Stuff:
 
