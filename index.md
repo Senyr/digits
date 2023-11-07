@@ -106,5 +106,3 @@ To provide a simple example of a "super power" for Admin users, the Admin page l
 <img src="doc/AdminPage.png">
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
-message.txt
-5 KB
