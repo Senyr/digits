@@ -1,6 +1,11 @@
 import { Mongo } from 'meteor/mongo';
 import SimpleSchema from 'simpl-schema';
 
+// eslint-disable-next-line no-unused-vars
+this.collection.attachSchema = function (schema) {
+
+};
+
 /**
  * The ContactsCollection. It encapsulates state and variable values for contact.
  */
@@ -9,6 +14,7 @@ class ContactsCollection {
     // The name of this collection.
     this.name = 'ContactsCollection';
     // Define the Mongo collection.
+    // eslint-disable-next-line new-cap
     this.collection = new Mongo.Collection(this.name);
     // Define the structure of each document in the collection.
     this.schema = new SimpleSchema({
