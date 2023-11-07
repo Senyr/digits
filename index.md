@@ -1,10 +1,13 @@
 ## Digits
 
+<img src= "doc/landing-page.png>
+
+
 ## Installation
 
-First, [install Meteor](https://www.meteor.com/install).
+First, install Meteor https://www.meteor.com/install.
 
-Second, go to [https://github.com/ics-software-engineering/meteor-application-template-react](https://github.com/ics-software-engineering/meteor-application-template-react), and click the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
+Second, go to https://github.com/ics-software-engineering/meteor-application-template-react https://github.com/ics-software-engineering/meteor-application-template-react, and click the "Use this template" button. Complete the dialog box to create a new repository that you own that is initialized with this template's files.
 
 Third, go to your newly created repository, and click the "Clone or download" button to download your new GitHub repo to your local file system.  Using [GitHub Desktop](https://desktop.github.com/) is a great choice if you use MacOS or Windows.
 
@@ -64,6 +67,7 @@ meteor npm run lint
 ```
 
 #### Landing page
+<img src= "doc/landing-page.png>
 
 When you retrieve the app at http://localhost:3000, this is what should be displayed:
 
@@ -71,11 +75,6 @@ When you retrieve the app at http://localhost:3000, this is what should be displ
 
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
-#### Login page
-
-Clicking on the Login link, then on the Sign In menu item displays this page:
-
-<img src="doc/RegisterPage.png" alt="Register">
 
 #### Landing (after Login) page, non-Admin user
 
@@ -85,8 +84,7 @@ Once you log in (either to an existing account or by creating a new one), the na
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
-#### Add Contact page
-
+#### Add Contacts page
 After logging in, here is the page that allows you to add new Contacts:
 
 <img src="doc/AddContatcs.png" alt="AddContacts">
