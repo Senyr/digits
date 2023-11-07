@@ -1,8 +1,5 @@
 ## Digits
 
-<img src= "doc/landing-page.png>
-
-
 ## Installation
 
 First, install Meteor https://www.meteor.com/install.
@@ -76,11 +73,16 @@ When you retrieve the app at http://localhost:3000, this is what should be displ
 The next step is to use the Login menu to either Login to an existing account or register a new account.
 
 
+The next step is to use the Login menu to either Login to an existing account or register a new account.
+
+#### Login page
+
+
 #### Landing (after Login) page, non-Admin user
 
 Once you log in (either to an existing account or by creating a new one), the navbar changes as follows:
 
-<img src="doc/LoginLandingPage.png" alt="LoginPage">
+<img src="doc/LoginLandingPage.png alt="LoginPage">
 
 You can now add new Stuff documents, and list the Stuff you have created. Note you cannot see any Stuff created by other users.
 
@@ -102,5 +104,9 @@ You click the "Edit" link to go to the Edit Stuff page, shown next.
 To provide a simple example of a "super power" for Admin users, the Admin page lists all of the Stuff by all of the users:
 
 <img src="doc/AdminPage.png" alt="Admin">
+
+Note that non-admin users cannot get to this page, even if they type in the URL by hand.
+
+<img src="doc/AdminPage.png" alt="meow">
 
 Note that non-admin users cannot get to this page, even if they type in the URL by hand.
